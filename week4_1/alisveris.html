@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color: #5c2929;
+            color: #f99595;
+            ButtonBorder: #ff0000;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            btn-color: #808080;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ürünler</h2>
+
+    <input type="text" id="arama" placeholder="Ürün ara..." />
+
+    <select id="kategori">
+        <option value="Tümü">Tüm Kategoriler</option>
+        <option value="Elektronik">Elektronik</option>
+        <option value="Aksesuar">Aksesuar</option>
+
+
+    </select>
+
+    <hr />
+
+    <div id="urunListesi"></div>
+
+    <hr />
+
+    <h2>Sepetim</h2>
+
+    <ul id="sepet"></ul>
+
+    <p id="urunSayisi">Ürün Sayısı: 0</p>
+    <p id="toplam">Toplam: 0</p>
+    <p id="kargo"></p>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
